@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(#c4c5c7, #9e9e9e);
+  height: 100%;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.icon-wrapper {
+  width: 8rem;
+  margin-right: 1rem;
+  animation: fadeIn 5s;
+}
+
+.icon {
+  width: 100%;
+}
+
+.nav-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

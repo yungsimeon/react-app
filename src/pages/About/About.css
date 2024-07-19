@@ -1,0 +1,86 @@
+.about_content-wrapper {
+  padding: 2em;
+  display: flex;
+  gap: 10em;
+  animation: fadeIn 2s;
+}
+.description {
+  font-size: 1.3em;
+}
+
+.wrapper-left {
+  width: 50%;
+}
+
+.spacer {
+  width: 3rem;
+  height: 1rem;
+  border-top: 3px solid black;
+}
+
+.profile-wrapper {
+  width: 30vw;
+}
+
+.profile-wrapper img {
+  width: 100%;
+}
+
+.simon {
+  font-size: 9vw;
+}
+
+.schubert {
+  font-size: 9vw;
+}
+
+.socials-wrapper {
+  margin-top: 5rem;
+}
+
+.about_socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_socials h3 {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-slide-in {
+  position: absolute; /* Position the element absolutely within the container */
+  animation: slideInFromLeft 1s ease-out forwards; /* Apply the animation */
+  inset: 55% 0% 0% 20%;
+  pointer-events: none;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-slide-in-2 {
+  position: absolute;
+  animation: slideInFromRight 1s ease-out forwards;
+  inset: 5% 12% auto auto;
+  pointer-events: none;
+}

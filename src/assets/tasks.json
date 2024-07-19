@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "1",
+    "taskName": "Read the project brief",
+    "hasDone": true,
+    "priority": "High",
+    "dueDate": "2024-07-01",
+    "description": "Read through the entire project brief to understand the requirements and deliverables.",
+    "assignee": "John Doe"
+  },
+  {
+    "_id": "2",
+    "taskName": "Create a project repository",
+    "hasDone": false,
+    "priority": "Medium",
+    "dueDate": "2024-07-02",
+    "description": "Set up a new repository on GitHub for the project and invite team members.",
+    "assignee": "Jane Smith"
+  },
+  {
+    "_id": "3",
+    "taskName": "Create React application using Vite",
+    "hasDone": false,
+    "priority": "High",
+    "dueDate": "2024-07-03",
+    "description": "Initialize a new React project using Vite for faster builds and better developer experience.",
+    "assignee": "John Doe"
+  },
+  {
+    "_id": "4",
+    "taskName": "Finish Day 1 Development Tasks",
+    "hasDone": true,
+    "priority": "High",
+    "dueDate": "2024-07-04",
+    "description": "Complete all development tasks assigned for the first day of the project.",
+    "assignee": "Team"
+  },
+  {
+    "_id": "5",
+    "taskName": "Finish Day 1 Research Tasks",
+    "hasDone": false,
+    "priority": "Medium",
+    "dueDate": "2024-07-04",
+    "description": "Complete all research tasks assigned for the first day of the project.",
+    "assignee": "Team"
+  }
+]
